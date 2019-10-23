@@ -2,3 +2,7 @@ alias upd="apt update && apt upgrade -y && apt dist-upgrade -y && apt autoremove
 alias etc="cd /etc"
 alias log="cd /nginx/logs/"
 alias nr="nginx -t && systemctl restart nginx"
+alias gac="git add . && git commit -m"
+alias gp="git push"
+alias gl="git pull"
+alias gcb="git checkout -b"
